@@ -6,8 +6,8 @@ Simulate command:
 
 `$iverilog -o [testBanch.vvp] [testBanch.v]`
 
-`$vvp AOI_logic_tb.vvp`
+`$vvp [testBanch.vvp]`
 
 Display waveform:
 
-`$gtkwave AOI_logic_tb.vcd`
+`$gtkwave [testBanch.vcd]`
