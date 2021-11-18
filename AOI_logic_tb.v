@@ -4,7 +4,7 @@
 module AOI_logic_tb;
   reg [1:0]in;
   wire and1,or1,not1;
-  AOI_logic uut(and1,or1,not1,in[0],in[1]);
+  AOI_logic uut(and1,or1,not1,in);
   initial begin
     $dumpfile("AOI_logic_tb.vcd");
     $dumpvars(0,AOI_logic_tb);
